@@ -1,0 +1,801 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test screenshots for all components matches Crypto snapshot 1`] = `
+<section
+  className="page-crypt"
+>
+  <div
+    className="top-bar"
+  >
+    <button
+      className="go-back"
+      onClick={[Function]}
+      type="button"
+    >
+      <i
+        className="chevron left icon"
+      />
+    </button>
+    <h4>
+      Crypto Currencies
+    </h4>
+    <div
+      className="top-left"
+    />
+  </div>
+  <div
+    className="banner crypt"
+  >
+    <a
+      className="banner-link crypto"
+      href="/crypto"
+      onClick={[Function]}
+    >
+      <div
+        className="banner-info"
+      >
+        <h3
+          className="banner-title"
+        >
+          Cryptos
+        </h3>
+        <p
+          className="total"
+        >
+          Market Capitalization: $2,78 T
+        </p>
+      </div>
+    </a>
+  </div>
+  <h4
+    className="sub-heading"
+  >
+    Tradable Crypto Pairs
+  </h4>
+  <ul
+    className="crypt-pairs"
+  />
+  <button
+    className="bottom-bar expand-button"
+    onClick={[Function]}
+    type="button"
+  >
+    More
+     
+    <i
+      className="chevron down icon"
+    />
+  </button>
+</section>
+`;
+
+exports[`test screenshots for all components matches EFTs snapshot 1`] = `
+<section
+  className="page-efts"
+>
+  <div
+    className="top-bar"
+  >
+    <button
+      className="go-back"
+      onClick={[Function]}
+      type="button"
+    >
+      <i
+        className="chevron left icon"
+      />
+    </button>
+    <h4>
+      ETFs
+    </h4>
+    <div
+      className="top-left"
+    />
+  </div>
+  <div
+    className="banner efts"
+  >
+    <a
+      className="banner-link efts"
+      href="/efts"
+      onClick={[Function]}
+    >
+      <div
+        className="banner-info"
+      >
+        <h3
+          className="banner-title"
+        >
+          ETF iShares
+        </h3>
+        <p
+          className="total"
+        >
+          Market Capitalization: $325.43 B
+        </p>
+      </div>
+    </a>
+  </div>
+  <h4
+    className="sub-heading"
+  >
+    Tradable ETF iShares
+  </h4>
+  <ul
+    className="eft-pairs loading"
+  >
+    <li>
+      <div
+        aria-busy="true"
+        className=""
+        style={Object {}}
+      >
+        <svg
+          aria-label="audio-loading"
+          fill="var(--text-color)"
+          height={50}
+          viewBox="0 0 120 30"
+          width={50}
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            cx="15"
+            cy="15"
+            r={15}
+          >
+            <animate
+              attributeName="r"
+              begin="0s"
+              calcMode="linear"
+              dur="0.8s"
+              from="15"
+              repeatCount="indefinite"
+              to="15"
+              values="15;9;15"
+            />
+            <animate
+              attributeName="fillOpacity"
+              begin="0s"
+              calcMode="linear"
+              dur="0.8s"
+              from="1"
+              repeatCount="indefinite"
+              to="1"
+              values="1;.5;1"
+            />
+          </circle>
+          <circle
+            attributeName="fillOpacity"
+            cx="60"
+            cy="15"
+            from="1"
+            r={9}
+            to="0.3"
+          >
+            <animate
+              attributeName="r"
+              begin="0s"
+              calcMode="linear"
+              dur="0.8s"
+              from="9"
+              repeatCount="indefinite"
+              to="9"
+              values="9;15;9"
+            />
+            <animate
+              attributeName="fillOpacity"
+              begin="0s"
+              calcMode="linear"
+              dur="0.8s"
+              from="0.5"
+              repeatCount="indefinite"
+              to="0.5"
+              values=".5;1;.5"
+            />
+          </circle>
+          <circle
+            cx="105"
+            cy="15"
+            r={15}
+          >
+            <animate
+              attributeName="r"
+              begin="0s"
+              calcMode="linear"
+              dur="0.8s"
+              from="15"
+              repeatCount="indefinite"
+              to="15"
+              values="15;9;15"
+            />
+            <animate
+              attributeName="fillOpacity"
+              begin="0s"
+              calcMode="linear"
+              dur="0.8s"
+              from="1"
+              repeatCount="indefinite"
+              to="1"
+              values="1;.5;1"
+            />
+          </circle>
+        </svg>
+      </div>
+    </li>
+  </ul>
+  <button
+    className="bottom-bar expand-button"
+    onClick={[Function]}
+    type="button"
+  >
+    More
+     
+    <i
+      className="chevron down icon"
+    />
+  </button>
+</section>
+`;
+
+exports[`test screenshots for all components matches Forex snapshot 1`] = `
+<section
+  className="page-forex"
+>
+  <div
+    className="top-bar"
+  >
+    <button
+      className="go-back"
+      onClick={[Function]}
+      type="button"
+    >
+      <i
+        className="chevron left icon"
+      />
+    </button>
+    <h4>
+      Currencies
+    </h4>
+    <div
+      className="top-left"
+    />
+  </div>
+  <div
+    className="banner forex"
+  >
+    <a
+      className="banner-link forex"
+      href="/forex"
+      onClick={[Function]}
+    >
+      <div
+        className="banner-info"
+      >
+        <h3
+          className="banner-title"
+        >
+          Forex
+        </h3>
+        <p
+          className="total"
+        >
+          Market Capitalization: $6.6 T
+        </p>
+      </div>
+    </a>
+  </div>
+  <h4
+    className="sub-heading"
+  >
+    Tradable Forex Pairs
+  </h4>
+  <ul
+    className="forex-pairs"
+  />
+  <button
+    className="bottom-bar expand-button"
+    onClick={[Function]}
+    type="button"
+  >
+    More
+     
+    <i
+      className="chevron down icon"
+    />
+  </button>
+</section>
+`;
+
+exports[`test screenshots for all components matches Home snapshot 1`] = `
+<section
+  className="home-page"
+>
+  <div
+    className="top-bar"
+  >
+    <h4>
+      Markets
+    </h4>
+    <div
+      className="top-left"
+    >
+      <i
+        className="microphone icon"
+      />
+      <i
+        className="cog icon"
+      />
+    </div>
+  </div>
+  <div
+    className="banner home"
+  >
+    <a
+      className="banner-link forex"
+      href="/forex"
+      onClick={[Function]}
+    >
+      <div
+        className="banner-info"
+      >
+        <h3
+          className="banner-title"
+        >
+          Forex
+        </h3>
+        <p
+          className="total"
+        >
+          Market Capitalization: $6.6 T
+        </p>
+      </div>
+    </a>
+  </div>
+  <h4
+    className="sub-heading"
+  >
+    Popular
+  </h4>
+  <div
+    className="content-body"
+  >
+    <a
+      className="category majors"
+      href="/majors"
+      onClick={[Function]}
+    >
+      <div
+        className="category-info"
+      >
+        <i
+          className="chevron circle right icon"
+        />
+        <h3
+          className="category-title"
+        >
+          Majors
+        </h3>
+        <p
+          className="total"
+        >
+          Cap: $6.6 T
+        </p>
+      </div>
+    </a>
+    <a
+      className="category crypto"
+      href="/crypto"
+      onClick={[Function]}
+    >
+      <div
+        className="category-info"
+      >
+        <i
+          className="chevron circle right icon"
+        />
+        <h3
+          className="category-title"
+        >
+          Cryptos
+        </h3>
+        <p
+          className="total"
+        >
+          Cap: $2,78 T
+        </p>
+      </div>
+    </a>
+    <a
+      className="category stocks"
+      href="/stocks"
+      onClick={[Function]}
+    >
+      <div
+        className="category-info"
+      >
+        <i
+          className="chevron circle right icon"
+        />
+        <h3
+          className="category-title"
+        >
+          Stocks
+        </h3>
+        <p
+          className="total"
+        >
+          Cap:  $48,56 M
+        </p>
+      </div>
+    </a>
+    <a
+      className="category efts"
+      href="/efts"
+      onClick={[Function]}
+    >
+      <div
+        className="category-info"
+      >
+        <i
+          className="chevron circle right icon"
+        />
+        <h3
+          className="category-title"
+        >
+          ETF iShares
+        </h3>
+        <p
+          className="total"
+        >
+          Cap: $325.43 B
+        </p>
+      </div>
+    </a>
+  </div>
+  <div
+    className="bottom-bar"
+  />
+</section>
+`;
+
+exports[`test screenshots for all components matches Loading snapshot 1`] = `
+<ul
+  className="stocks loading"
+>
+  <li>
+    <div
+      aria-busy="true"
+      className=""
+      style={Object {}}
+    >
+      <svg
+        aria-label="audio-loading"
+        fill="var(--text-color)"
+        height={50}
+        viewBox="0 0 120 30"
+        width={50}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="15"
+          cy="15"
+          r={15}
+        >
+          <animate
+            attributeName="r"
+            begin="0s"
+            calcMode="linear"
+            dur="0.8s"
+            from="15"
+            repeatCount="indefinite"
+            to="15"
+            values="15;9;15"
+          />
+          <animate
+            attributeName="fillOpacity"
+            begin="0s"
+            calcMode="linear"
+            dur="0.8s"
+            from="1"
+            repeatCount="indefinite"
+            to="1"
+            values="1;.5;1"
+          />
+        </circle>
+        <circle
+          attributeName="fillOpacity"
+          cx="60"
+          cy="15"
+          from="1"
+          r={9}
+          to="0.3"
+        >
+          <animate
+            attributeName="r"
+            begin="0s"
+            calcMode="linear"
+            dur="0.8s"
+            from="9"
+            repeatCount="indefinite"
+            to="9"
+            values="9;15;9"
+          />
+          <animate
+            attributeName="fillOpacity"
+            begin="0s"
+            calcMode="linear"
+            dur="0.8s"
+            from="0.5"
+            repeatCount="indefinite"
+            to="0.5"
+            values=".5;1;.5"
+          />
+        </circle>
+        <circle
+          cx="105"
+          cy="15"
+          r={15}
+        >
+          <animate
+            attributeName="r"
+            begin="0s"
+            calcMode="linear"
+            dur="0.8s"
+            from="15"
+            repeatCount="indefinite"
+            to="15"
+            values="15;9;15"
+          />
+          <animate
+            attributeName="fillOpacity"
+            begin="0s"
+            calcMode="linear"
+            dur="0.8s"
+            from="1"
+            repeatCount="indefinite"
+            to="1"
+            values="1;.5;1"
+          />
+        </circle>
+      </svg>
+    </div>
+  </li>
+</ul>
+`;
+
+exports[`test screenshots for all components matches Majors snapshot 1`] = `
+<section
+  className="page-majors"
+>
+  <div
+    className="top-bar"
+  >
+    <button
+      className="go-back"
+      onClick={[Function]}
+      type="button"
+    >
+      <i
+        className="chevron left icon"
+      />
+    </button>
+    <h4>
+      Major Currencies
+    </h4>
+    <div
+      className="top-left"
+    />
+  </div>
+  <div
+    className="banner majors"
+  >
+    <a
+      className="banner-link majors"
+      href="/majors"
+      onClick={[Function]}
+    >
+      <div
+        className="banner-info"
+      >
+        <h3
+          className="banner-title"
+        >
+          Majors
+        </h3>
+        <p
+          className="total"
+        >
+          Market Capitalization: $6.6 T
+        </p>
+      </div>
+    </a>
+  </div>
+  <h4
+    className="sub-heading"
+  >
+    Tradable Forex Pairs
+  </h4>
+  <ul
+    className="major-pairs"
+  />
+  <button
+    className="bottom-bar expand-button"
+    onClick={[Function]}
+    type="button"
+  >
+    More
+     
+    <i
+      className="chevron down icon"
+    />
+  </button>
+</section>
+`;
+
+exports[`test screenshots for all components matches Stocks snapshot 1`] = `
+<section
+  className="page-stocks"
+>
+  <div
+    className="top-bar"
+  >
+    <button
+      className="go-back"
+      onClick={[Function]}
+      type="button"
+    >
+      <i
+        className="chevron left icon"
+      />
+    </button>
+    <h4>
+      Stocks
+    </h4>
+    <div
+      className="top-left"
+    />
+  </div>
+  <div
+    className="banner stocks"
+  >
+    <a
+      className="banner-link stocks"
+      href="/stocks"
+      onClick={[Function]}
+    >
+      <div
+        className="banner-info"
+      >
+        <h3
+          className="banner-title"
+        >
+          Stocks
+        </h3>
+        <p
+          className="total"
+        >
+          Market Capitalization:  $48,56 M
+        </p>
+      </div>
+    </a>
+  </div>
+  <h4
+    className="sub-heading"
+  >
+    Tradable Stocks
+  </h4>
+  <ul
+    className="stock-pairs loading"
+  >
+    <li>
+      <div
+        aria-busy="true"
+        className=""
+        style={Object {}}
+      >
+        <svg
+          aria-label="audio-loading"
+          fill="var(--text-color)"
+          height={50}
+          viewBox="0 0 120 30"
+          width={50}
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            cx="15"
+            cy="15"
+            r={15}
+          >
+            <animate
+              attributeName="r"
+              begin="0s"
+              calcMode="linear"
+              dur="0.8s"
+              from="15"
+              repeatCount="indefinite"
+              to="15"
+              values="15;9;15"
+            />
+            <animate
+              attributeName="fillOpacity"
+              begin="0s"
+              calcMode="linear"
+              dur="0.8s"
+              from="1"
+              repeatCount="indefinite"
+              to="1"
+              values="1;.5;1"
+            />
+          </circle>
+          <circle
+            attributeName="fillOpacity"
+            cx="60"
+            cy="15"
+            from="1"
+            r={9}
+            to="0.3"
+          >
+            <animate
+              attributeName="r"
+              begin="0s"
+              calcMode="linear"
+              dur="0.8s"
+              from="9"
+              repeatCount="indefinite"
+              to="9"
+              values="9;15;9"
+            />
+            <animate
+              attributeName="fillOpacity"
+              begin="0s"
+              calcMode="linear"
+              dur="0.8s"
+              from="0.5"
+              repeatCount="indefinite"
+              to="0.5"
+              values=".5;1;.5"
+            />
+          </circle>
+          <circle
+            cx="105"
+            cy="15"
+            r={15}
+          >
+            <animate
+              attributeName="r"
+              begin="0s"
+              calcMode="linear"
+              dur="0.8s"
+              from="15"
+              repeatCount="indefinite"
+              to="15"
+              values="15;9;15"
+            />
+            <animate
+              attributeName="fillOpacity"
+              begin="0s"
+              calcMode="linear"
+              dur="0.8s"
+              from="1"
+              repeatCount="indefinite"
+              to="1"
+              values="1;.5;1"
+            />
+          </circle>
+        </svg>
+      </div>
+    </li>
+  </ul>
+  <button
+    className="bottom-bar expand-button"
+    onClick={[Function]}
+    type="button"
+  >
+    More
+     
+    <i
+      className="chevron down icon"
+    />
+  </button>
+</section>
+`;

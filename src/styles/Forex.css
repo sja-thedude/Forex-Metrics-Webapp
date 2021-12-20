@@ -1,0 +1,62 @@
+.forex-pairs,
+.major-pairs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.banner-info {
+  height: 30vh;
+}
+
+.pair {
+  display: flex;
+  align-items: center;
+  padding: 0.8rem 0 0.8rem 0.8rem;
+  background: var(--second-bg-color);
+}
+
+.pair:nth-child(odd) {
+  background: var(--bg-color);
+}
+
+.forex.pair,
+.majors.pair {
+  height: 18.33vh;
+}
+
+.pair-name {
+  flex: 1;
+  margin: 0;
+  text-align: left;
+}
+
+.pair-prices {
+  flex: 1.2;
+  margin: 0;
+  text-align: left;
+  padding: 0.1rem;
+}
+
+.pair-high,
+.pair-low,
+.pair-change {
+  font-weight: 500;
+  margin: 0;
+}
+
+.pair-high {
+  text-align: center;
+  padding: 0 0.2rem;
+  background: rgba(0, 150, 0, 0.8);
+  border: 1px solid green;
+  border-radius: 2px;
+}
+
+.pair-low {
+  text-align: center;
+  padding: 0 0.6rem 0 0.2rem;
+  background: rgba(230, 0, 0, 0.8);
+  border: 1px solid red;
+  border-radius: 2px;
+}

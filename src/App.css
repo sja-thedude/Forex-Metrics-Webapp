@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --bar-color: #3d4275;
+  --dark-color: #fff;
+  --second-bg-color: rgba(7, 47, 182, 0.562);
+  --bg-color: rgba(20, 58, 182, 0.637);
+  --border-color: #e6e6e6;
+  --text-color: #2646d3;
+  --bar-shadow:
+    0 -3px 3px rgba(38, 34, 141, 0.05),
+    inset 0 -3px 3px rgba(9, 7, 94, 0.05),
+    0 3px 3px rgba(18, 8, 71, 0.3),
+    inset 0 3px 3px rgba(22, 8, 102, 0.3);
+}
+
+.markets {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.positive {
+  color: #008000;
+}
+
+.negative {
+  color: #f00;
+}
+
+.page-forex,
+.page-majors,
+.page-crypt,
+.page-stocks,
+.page-efts {
+  font-family: 'Poppins', 'Roboto Slab', sans-serif;
+  width: 100%;
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  border: 1px solid var(--border-color);
+}
+
+.go-back {
+  text-align: left;
+  padding: 0.2rem 0.2rem 0.2rem 0;
+  border: none;
+  background: none;
+}
+
+.chevron.left {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.go-back:hover .chevron.left {
+  color: var(--text-color);
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55vh;
+  background: var(--second-bg-color);
+}
+
+.expand-button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: none;
+  font-weight: 500;
+}
+
+.expand-button .chevron.up,
+.expand-button .chevron.down {
+  margin-left: 0.5rem;
+}
+
+.expand-button:hover .chevron.up,
+.expand-button:hover .chevron.down {
+  color: var(--text-color);
+}

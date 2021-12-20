@@ -1,0 +1,18 @@
+.stock-pairs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.stock-info.pair-name {
+  flex: 1.4;
+  padding-right: 0.8rem;
+}
+
+.stock.pair-prices {
+  flex: 1;
+}
+
+.stocks.pair {
+  height: 13.75vh;
+}
