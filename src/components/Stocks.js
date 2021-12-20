@@ -6,7 +6,7 @@ import { categories } from './data';
 import Loading from './Loading';
 import '../styles/Stocks.css';
 
-function Stocks() {
+const Stocks = () => {
   const stocks = useSelector((state) => state.stocks);
   const [isLoading, setIsLoading] = useState(true);
   const [isExpanded, setIsExpanded] = useState(false);
@@ -93,6 +93,6 @@ function Stocks() {
       <ShowButton isExpanded={isExpanded} show={show} />
     </section>
   );
-}
+};
 
 export default Stocks;

@@ -7,7 +7,7 @@ import Loading from './Loading';
 import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
 import '../styles/EFTs.css';
 
-function EFTs() {
+const EFTs = () => {
   const efts = useSelector((state) => state.efts);
   const [isLoading, setIsLoading] = useState(true);
   const [isExpanded, setIsExpanded] = useState(false);
@@ -94,6 +94,6 @@ function EFTs() {
       <ShowButton isExpanded={isExpanded} show={show} />
     </section>
   );
-}
+};
 
 export default EFTs;

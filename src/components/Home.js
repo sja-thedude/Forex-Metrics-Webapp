@@ -7,7 +7,7 @@ import {
 } from '../redux/actions/markets';
 import '../styles/Home.css';
 
-function Home() {
+const Home = () => {
   const forex = useSelector((state) => state.forex);
   const cryptos = useSelector((state) => state.cryptos);
   const stocks = useSelector((state) => state.stocks);
@@ -79,6 +79,6 @@ function Home() {
       <div className="bottom-bar" />
     </section>
   );
-}
+};
 
 export default Home;

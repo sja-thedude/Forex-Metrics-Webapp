@@ -11,8 +11,6 @@ import Majors from '../../components/Majors';
 import Stocks from '../../components/Stocks';
 
 describe('test screenshots for all components', () => {
-//   const getState = () => ({ price: 0.145947, ticket: 'EUR/USD' });
-
   test('matches Crypto snapshot', () => {
     const tree = TestRenderer.create(
       <Provider store={store}>

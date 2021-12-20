@@ -5,7 +5,7 @@ import ShowButton from './ShowButton';
 import { categories } from './data';
 import '../styles/Forex.css';
 
-function Forex() {
+const Forex = () => {
   const forex = useSelector((state) => state.forex);
   const [isExpanded, setIsExpanded] = useState(false);
   const [itemsToShow, setItemsToShow] = useState(3);
@@ -104,6 +104,6 @@ function Forex() {
       <ShowButton isExpanded={isExpanded} show={show} />
     </section>
   );
-}
+};
 
 export default Forex;

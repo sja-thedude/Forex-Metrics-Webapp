@@ -6,7 +6,7 @@ import ShowButton from './ShowButton';
 import { getMajors } from '../redux/actions/markets';
 import '../styles/Forex.css';
 
-function Majors() {
+const Majors = () => {
   const forex = useSelector((state) => state.forex);
   const majors = useSelector((state) => state.majors);
   const [isExpanded, setIsExpanded] = useState(false);
@@ -114,6 +114,6 @@ function Majors() {
       <ShowButton isExpanded={isExpanded} show={show} />
     </section>
   );
-}
+};
 
 export default Majors;

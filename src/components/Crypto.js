@@ -5,7 +5,7 @@ import { categories } from './data';
 import ShowButton from './ShowButton';
 import '../styles/Crypto.css';
 
-function Crypto() {
+const Crypto = () => {
   const cryptos = useSelector((state) => state.cryptos);
   const filterCryptos = cryptos.filter((crypto) => crypto !== undefined);
   const [isExpanded, setIsExpanded] = useState(false);
@@ -105,6 +105,6 @@ function Crypto() {
       <ShowButton isExpanded={isExpanded} show={show} />
     </section>
   );
-}
+};
 
 export default Crypto;
