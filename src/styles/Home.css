@@ -1,0 +1,151 @@
+.home-page {
+  font-family: 'Poppins', 'Roboto Slab', sans-serif;
+  width: 100%;
+  min-width: 320px;
+  height: 100vh;
+  color: var(--dark-color);
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--border-color);
+}
+
+.top-bar,
+.bottom-bar,
+.sub-heading {
+  display: flex;
+  align-items: center;
+  height: 5vh;
+  margin: 0;
+  padding: 0 0.8rem;
+  background: var(--bar-color);
+  box-shadow: var(--bar-shadow);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.top-bar {
+  justify-content: space-between;
+}
+
+.top-bar h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.top-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 55px;
+  margin: 0;
+  padding: 0.2rem 0;
+}
+
+.cog.icon {
+  font-size: 1.2rem;
+}
+
+.banner {
+  position: relative;
+  height: 30vh;
+  background: var(--second-bg-color);
+}
+
+.banner-link,
+.category {
+  position: relative;
+  color: var(--dark-color);
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  background: var(--second-bg-color);
+}
+
+.category:first-child,
+.category:last-child {
+  background: var(--bg-color);
+}
+
+.category:first-child {
+  border-top: none;
+}
+
+.category:last-child {
+  border-bottom: none;
+}
+
+.banner.home::before,
+.banner.forex::before {
+  background-image: url(../assets/forex.png);
+}
+
+.category.majors::before,
+.banner.majors::before {
+  background-image: url(../assets/majors.png);
+}
+
+.category.crypt::before,
+.banner.crypt::before {
+  background-image: url(../assets/crypto.png);
+}
+
+.category.stocks::before,
+.banner.stocks::before {
+  background-image: url(../assets/stocks.png);
+}
+
+.category.efts::before,
+.banner.efts::before {
+  background-image: url(../assets/shares.png);
+}
+
+.banner::before,
+.category.majors::before,
+.category.crypt::before,
+.category.stocks::before,
+.category.efts::before {
+  content: "";
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.1;
+}
+
+.content-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 55vh;
+}
+
+.banner-info,
+.category-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.chevron.circle.right {
+  font-size: 1.3rem;
+  color: var(--text-color);
+}
+
+.banner-title,
+.category-title {
+  text-align: end;
+  padding: 0 0.8rem;
+  color: var(--dark-color);
+}
+
+.total {
+  font-weight: 500;
+  margin: 0;
+  padding: 0 0.8rem;
+  color: var(--text-color);
+}
