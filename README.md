@@ -5,17 +5,17 @@
 # Forex Metrics
 This app displays a list of popular stock market prices. Users can click on selected categories including forex, majors, cryptocurrencies, stocks, and ETFs. Each category lists the latest prices update for the pair. Consumes the [Financial Modeling Prep API](https://site.financialmodelingprep.com/developer/docs).
 
-![home](src/assets/)
-![Forex](src/assets/)
-![Majors](src/assets/)
-![Cryptos](src/assets/)
-![Stocks](src/assets/)
-![ETFs](src/assets/)
+![Home](src/assets/home.png)
+![Forex](src/assets/forexhp.png)
+![Majors](src/assets/majorshp.png)
+![Cryptos](src/assets/cryptos.png)
+![Stocks](src/assets/stockshp.png)
+![ETFs](src/assets/etfs.png)
 
-This project is part of the Microverse curriculum Capstone week. The main objective is to understand how create a React app, use components, hooks, state, redux, run tests, and creating professional documentation for app development.
+This project is part of the Microverse curriculum React Capstone week. The main objective is to understand how create a React app, use components, hooks, state, redux, run tests, and creating professional documentation for app development.
 
 ## Live Preview
-[Forex Metrics]()
+[Forex Metrics Live](https://sja-forex-metrics-webapp.netlify.app)
 
 ## Built With
 
@@ -75,7 +75,7 @@ Track JavaScript linter errors run:
 npx eslint .
 ```
 
-## `Deployement`
+## `Deployment`
 ```
 npm build
 ```
@@ -116,7 +116,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- This project is part module 3 Capstone in the Microverse study program.
+- This project is part Block 5 Module 3 Capstone in the Microverse study program.
 - Thanks to the Microverse team for the great curriculum.
 - Thanks to Code Reviewers for the insightful feedback.
 - A great thanks to My coding partners, morning session team, and standup team Partners for their contributions.

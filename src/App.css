@@ -74,11 +74,13 @@
   width: 100%;
   border: none;
   font-weight: 500;
+  color: #fff;
 }
 
 .expand-button .chevron.up,
 .expand-button .chevron.down {
   margin-left: 0.5rem;
+  color: #fff;
 }
 
 .expand-button:hover .chevron.up,
